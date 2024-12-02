@@ -59,10 +59,11 @@ git branch -M gh-pages
 git push -u origin gh-pages --force
 
 
+```
 Correct URL :
 git remote -v
 git remote set-url origin https://github.com/your-username/your-correct-repo-name.git
-
+```
 ```
 Add commit push
 cd build
