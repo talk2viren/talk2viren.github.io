@@ -51,13 +51,15 @@ cd build
 git init
 Add, Commit, and Push:
 ```
-sh
+
+## Help
+```
 git add .
 git commit -m "Deploy React app to GitHub Pages"
 git remote add origin https://github.com/your-username/your-repo-name.git
 git branch -M gh-pages
 git push -u origin gh-pages --force
-
+```
 
 ```
 Correct URL :
