@@ -61,10 +61,11 @@ git branch -M gh-pages
 git push -u origin gh-pages --force
 ```
 
+### Command
 ```
 Correct URL :
 git remote -v
-git remote set-url origin https://github.com/your-username/your-correct-repo-name.git
+git remote set-url origin git@github.com:talk2viren/talk2viren.github.io.git
 ```
 ```
 Add commit push
