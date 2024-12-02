@@ -24,7 +24,7 @@ jobs:
       - name: Build the React app
         run: npm run build
         
-      - name: Verify Access Token v1 
+      - name: Verify Access Token v2 
         run: echo "ACCESS_TOKEN is set" 
         env: 
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
