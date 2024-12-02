@@ -37,11 +37,13 @@ sh
 echo "" > build/.nojekyll
 Initialize Git in build Directory:
 
-sh
+## Push build folder
+
+```
 cd build
 git init
 Add, Commit, and Push:
-
+```
 sh
 git add .
 git commit -m "Deploy React app to GitHub Pages"
