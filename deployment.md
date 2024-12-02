@@ -25,7 +25,7 @@ Step 4 : Commit and Push to the gh-pages Branch
 ```
 git add .
 git commit -m "Deploy React app to GitHub Pages"
-git remote add origin https://github.com/your-username/your-repo-name.git
+git remote add origin git@github.com:talk2viren/talk2viren.github.io.git
 git branch -M gh-pages
 git push -u origin gh-pages --force
 
