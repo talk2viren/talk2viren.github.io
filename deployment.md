@@ -54,9 +54,10 @@ Correct URL :
 git remote -v
 git remote set-url origin https://github.com/your-username/your-correct-repo-name.git
 
+```
 Add commit push
 cd build
 git add .
 git commit -m "Deploy React app to GitHub Pages"
 git push -u origin gh-pages --force
-
+```
